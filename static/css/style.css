@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+body {
+    color: black;	/*全体の文字色*/
+    background-color: rgb(19, 164, 189);
+	font-family: "M PLUS Rounded 1c", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    margin-bottom: 100px;
+}
+#densen_img {
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+}
+#sns {
+    display:flex;
+    justify-content: center
+}
+p {
+    margin-top: 200px;
+    font-size: 1.5rem;	
+}
+.social_icon img{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    margin:20px;
+}
+.welcom{
+    margin-bottom: 100px;
+}
+.link_button{
+    margin-bottom: 300px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    margin-top: 100px;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    font-family: "M PLUS Rounded 1c", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
